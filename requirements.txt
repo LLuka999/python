@@ -1,0 +1,6 @@
+numpy==1.24.3
+npandas==2.0.2
+nmatplotlib==3.7.1
+nscikit-learn==1.2.2
+njupyter==1.0.0
+nseaborn==0.12.2
