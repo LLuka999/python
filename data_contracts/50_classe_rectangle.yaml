@@ -1,0 +1,24 @@
+name: "Introduction à la POO - Classe Rectangle"
+level: 5 # Introduction à la Programmation Orientée Objet
+filename: "level_05_poo_bases/50_classe_rectangle.py"
+input:
+  - name: longueur
+    type: float
+    value: 10.0
+  - name: largeur
+    type: float
+    value: 5.0
+output:
+  - type: str
+    value: "Rectangle de longueur 10.0 et largeur 5.0.\nPérimètre : 30.0\nAire : 50.0"
+logic:
+  - "Définir une classe `Rectangle`."
+  - "Le constructeur `__init__` doit accepter la longueur et la largeur comme arguments et les stocker comme attributs d'instance."
+  - "Ajouter une validation dans le constructeur pour s'assurer que la longueur et la largeur sont des nombres positifs."
+  - "Créer une méthode `calculer_aire()` qui retourne l'aire du rectangle (longueur * largeur)."
+  - "Créer une méthode `calculer_perimetre()` qui retourne le périmètre du rectangle (2 * (longueur + largeur))."
+  - "Créer une méthode `afficher_details()` qui affiche la longueur, la largeur, l'aire et le périmètre du rectangle de manière formatée."
+  - "Dans la section `if __name__ == \"__main__\":` :"
+  - "  Instancier un ou plusieurs objets `Rectangle` avec différentes dimensions."
+  - "  Appeler les méthodes pour calculer l'aire, le périmètre et afficher les détails pour chaque instance."
+  - "  Gérer les cas où les dimensions fournies pour créer un rectangle sont invalides (ex: négatives ou non numériques) en levant des exceptions appropriées (ex: ValueError) et en les attrapant." 

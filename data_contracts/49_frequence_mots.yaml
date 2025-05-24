@@ -1,0 +1,29 @@
+name: "Analyse de Fréquence des Mots dans un Fichier"
+level: 4 # Introduction à la manipulation de fichiers et dictionnaires plus complexes
+filename: "level_04_fonctions_et_fichiers/49_frequence_mots.py"
+input:
+  - name: chemin_fichier
+    type: str
+    value: "exemple.txt" # Un fichier texte à analyser
+  - name: nombre_mots_top
+    type: int
+    value: 10 # Nombre de mots les plus fréquents à afficher
+output:
+  - type: dict # ou affichage formaté
+    value: "{
+      \"le\": 25,
+      \"la\": 20,
+      \"et\": 18,
+      ...
+    }"
+logic:
+  - "Demander à l'utilisateur le chemin d'un fichier texte."
+  - "Gérer le cas où le fichier n'existe pas (FileNotFoundError)."
+  - "Lire le contenu du fichier."
+  - "Nettoyer le texte : convertir en minuscules, supprimer la ponctuation."
+  - "Diviser le texte en mots (tokens)."
+  - "Compter la fréquence de chaque mot en utilisant un dictionnaire."
+  - "Trier les mots par fréquence (du plus fréquent au moins fréquent)."
+  - "Demander à l'utilisateur combien de mots les plus fréquents il souhaite afficher."
+  - "Afficher les N mots les plus fréquents et leur nombre d'occurrences."
+  - "Optionnel: ignorer les mots courants (stop words comme 'le', 'la', 'de', etc.) à partir d'une liste prédéfinie." 

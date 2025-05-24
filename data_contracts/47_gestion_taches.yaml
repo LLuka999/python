@@ -1,0 +1,28 @@
+name: "Gestionnaire de Tâches Simple"
+level: 3
+filename: "level_03_data_structures/47_gestion_taches.py"
+input:
+  - name: action_utilisateur
+    type: str
+    value: "ajouter" # Exemples: ajouter, lister, terminer, quitter
+  - name: description_tache
+    type: str
+    value: "Faire les courses" # Seulement si action_utilisateur est 'ajouter'
+  - name: index_tache
+    type: int
+    value: 1 # Seulement si action_utilisateur est 'terminer' ou 'supprimer'
+output:
+  - type: str # Affichage interactif : messages de confirmation, liste des tâches
+    value: "Tâche 'Faire les courses' ajoutée.
+
+Liste des tâches:
+1. [ ] Faire les courses"
+logic:
+  - "Initialiser une liste vide pour stocker les tâches (ex: liste de dictionnaires avec 'description' et 'terminee')."
+  - "Créer une boucle principale pour l'interaction utilisateur (menu avec options : ajouter, lister, marquer comme terminée, supprimer, quitter)."
+  - "Option 'ajouter': demander la description de la tâche et l'ajouter à la liste."
+  - "Option 'lister': afficher toutes les tâches avec leur numéro et statut (ex: [ ] pour en cours, [X] pour terminée)."
+  - "Option 'marquer comme terminée': demander le numéro de la tâche et mettre à jour son statut."
+  - "Option 'supprimer': demander le numéro de la tâche et la retirer de la liste."
+  - "Option 'quitter': sortir du programme."
+  - "Gérer les entrées incorrectes (ex: mauvais numéro de tâche, commande invalide)." 

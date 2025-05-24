@@ -1,0 +1,25 @@
+name: "Calculatrice avec Fonctions"
+level: 3 
+filename: "level_03_data_structures/48_calculatrice_fonctions.py"
+input:
+  - name: nombre1
+    type: float
+    value: 10.5
+  - name: nombre2
+    type: float
+    value: 5.2
+  - name: operation
+    type: str
+    value: "addition" # Exemples: addition, soustraction, multiplication, division
+output:
+  - type: str
+    value: "Résultat de 10.5 + 5.2 = 15.7"
+logic:
+  - "Définir des fonctions séparées pour chaque opération arithmétique de base : addition(a, b), soustraction(a, b), multiplication(a, b), division(a, b)."
+  - "La fonction division doit gérer le cas de la division par zéro."
+  - "Demander à l'utilisateur de saisir deux nombres."
+  - "Demander à l'utilisateur de choisir une opération."
+  - "Appeler la fonction appropriée en fonction du choix de l'utilisateur."
+  - "Afficher le résultat de manière claire."
+  - "Gérer les entrées invalides (ex: nombres non numériques, opération non reconnue)."
+  - "Permettre à l'utilisateur d'effectuer plusieurs calculs jusqu'à ce qu'il décide de quitter." 
