@@ -1,0 +1,27 @@
+name: Conversion de Types
+level: 1
+filename: 06_conversion_types.py
+input:
+  - name: nombre_str
+    type: str
+    value: "123"
+  - name: flottant_val
+    type: float
+    value: 45.67
+output:
+  - type: str
+    value: "Chaîne originale: 123, Type: <class 'str'>"
+  - type: str
+    value: "Convertie en entier: 123, Type: <class 'int'>"
+  - type: str
+    value: "Flottant original: 45.67, Type: <class 'float'>"
+  - type: str
+    value: "Converti en entier: 45, Type: <class 'int'>"
+  - type: str
+    value: "Entier converti en chaîne: 45, Type: <class 'str'>"
+logic:
+  - Créer une variable `nombre_str` ("123"). Afficher sa valeur et son type.
+  - Convertir `nombre_str` en entier en utilisant `int()`. Afficher la nouvelle valeur et son type.
+  - Créer une variable `flottant_val` (45.67). Afficher sa valeur et son type.
+  - Convertir `flottant_val` en entier. Afficher la nouvelle valeur et son type.
+  - Convertir cet entier résultant en chaîne en utilisant `str()`. Afficher la nouvelle valeur et son type. 

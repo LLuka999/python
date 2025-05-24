@@ -1,0 +1,19 @@
+nom: "Factorielle d'un Nombre"
+niveau: "level_02_control_flow"
+nom_fichier: "25_factorielle_nombre.py"
+entree:
+  - nom: "n"
+    type: "int"
+    description: "Un entier positif N."
+sortie:
+  - nom: "factorielle"
+    type: "int"
+    description: "La factorielle de N."
+logique: |
+  1. Demander à l'utilisateur de saisir un entier N.
+  2. Si N est négatif, afficher un message d'erreur.
+  3. Si N est 0, la factorielle est 1.
+  4. Sinon, initialiser `factorielle` à 1.
+  5. Utiliser une boucle pour itérer de 1 à N (inclus).
+  6. Multiplier `factorielle` par le nombre actuel à chaque itération.
+  7. Afficher la `factorielle`. 

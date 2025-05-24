@@ -1,0 +1,22 @@
+name: Variables et Types de Données
+level: 1
+filename: 02_variables_et_types.py
+input: []
+output:
+  - type: str
+    value: "Nom: Alice, Age: 30, Taille: 1.65, Étudiante: True"
+  - type: str
+    value: "Type de nom: <class 'str'>"
+  - type: str
+    value: "Type d'age: <class 'int'>"
+  - type: str
+    value: "Type de taille: <class 'float'>"
+  - type: str
+    value: "Type d'étudiante: <class 'bool'>"
+logic:
+  - Créer une variable 'nom' (str) avec la valeur "Alice".
+  - Créer une variable 'age' (int) avec la valeur 30.
+  - Créer une variable 'taille' (float) avec la valeur 1.65.
+  - Créer une variable 'est_etudiante' (bool) avec la valeur True.
+  - Afficher les valeurs des variables dans une chaîne formatée.
+  - Afficher le type de chaque variable en utilisant la fonction type(). 

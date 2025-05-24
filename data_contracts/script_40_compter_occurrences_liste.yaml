@@ -1,0 +1,17 @@
+nom: "Compter les Occurrences d'un Élément dans une Liste"
+niveau: "level_03_data_structures"
+nom_fichier: "40_compter_occurrences_liste.py"
+entree:
+  - nom: "element_a_compter"
+    type: "any"
+    description: "L'élément dont on veut compter les occurrences."
+sortie:
+  - nom: "nombre_occurrences"
+    type: "int"
+    description: "Le nombre de fois que l'élément apparaît dans la liste."
+logique: |
+  1. Créer une liste avec des éléments répétés.
+  2. Afficher la liste.
+  3. Choisir un élément à compter (saisi par l'utilisateur ou prédéfini).
+  4. Utiliser la méthode `count()` pour compter le nombre d'occurrences de cet élément.
+  5. Afficher le résultat. 

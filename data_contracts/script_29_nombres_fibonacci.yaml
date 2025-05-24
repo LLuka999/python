@@ -1,0 +1,19 @@
+nom: "Générer les N Premiers Nombres de Fibonacci"
+niveau: "level_02_control_flow"
+nom_fichier: "29_nombres_fibonacci.py"
+entree:
+  - nom: "n"
+    type: "int"
+    description: "Le nombre de termes de Fibonacci à générer."
+sortie:
+  - nom: "suite_fibonacci"
+    type: "list"
+    description: "Une liste contenant les N premiers nombres de Fibonacci."
+logique: |
+  1. Demander à l'utilisateur de saisir N (le nombre de termes).
+  2. Initialiser `a = 0`, `b = 1`.
+  3. Si N <= 0, afficher un message d'erreur.
+  4. Si N == 1, afficher `[a]`.
+  5. Sinon, afficher `[a, b]` et utiliser une boucle pour générer les N-2 termes restants.
+  6. Dans la boucle, calculer `suivant = a + b`, l'ajouter à la liste, puis mettre à jour `a = b` et `b = suivant`.
+  7. Afficher la suite de Fibonacci générée. 

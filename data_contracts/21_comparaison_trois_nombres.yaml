@@ -1,0 +1,20 @@
+name: Comparaison Trois Nombres
+level: 2
+filename: 21_comparaison_trois_nombres.py
+input:
+  - name: num1
+    type: int
+    value: 10
+  - name: num2
+    type: int
+    value: 25
+  - name: num3
+    type: int
+    value: 15
+output:
+  - type: str
+    value: "Le plus grand nombre est 25."
+logic:
+  - Définir trois variables : `num1`, `num2`, `num3`.
+  - Utiliser des instructions `if-elif-else` imbriquées ou des opérateurs logiques pour trouver le plus grand des trois.
+  - Afficher le plus grand nombre. 

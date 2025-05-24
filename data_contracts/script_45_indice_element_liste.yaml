@@ -1,0 +1,18 @@
+nom: "Trouver l'Indice d'un Élément dans une Liste"
+niveau: "level_03_data_structures"
+nom_fichier: "45_indice_element_liste.py"
+entree:
+  - nom: "element_recherche"
+    type: "any"
+    description: "L'élément dont on cherche l'indice."
+sortie:
+  - nom: "indice"
+    type: "int"
+    description: "L'indice de la première occurrence de l'élément (ou un message d'erreur s'il n'est pas trouvé)."
+logique: |
+  1. Créer une liste d'éléments.
+  2. Afficher la liste.
+  3. Choisir un élément à rechercher (saisi par l'utilisateur ou prédéfini).
+  4. Utiliser la méthode `index()` pour trouver l'indice de la première occurrence de l'élément.
+  5. Gérer l'exception `ValueError` si l'élément n'est pas dans la liste, et afficher un message approprié.
+  6. Afficher l'indice si l'élément est trouvé. 

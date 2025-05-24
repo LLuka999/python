@@ -1,0 +1,16 @@
+name: Année Bissextile
+level: 2
+filename: 22_annee_bissextile.py
+input:
+  - name: annee
+    type: int
+    value: 2024
+output:
+  - type: str
+    value: "2024 est une année bissextile."
+logic:
+  - Demander à l'utilisateur de saisir une année (ou utiliser une valeur fixe).
+  - Une année est bissextile si elle est divisible par 4, SAUF si elle est divisible par 100 mais pas par 400.
+  - Logique : `(annee % 4 == 0 and annee % 100 != 0) or (annee % 400 == 0)`
+  - Afficher si l'année est bissextile ou non.
+  - Gérer le cas où l'entrée n'est pas un entier positif. 

@@ -1,0 +1,10 @@
+name: Hello World
+level: 1
+filename: 01_hello_world.py
+input: []
+output:
+  - type: str
+    value: "Hello, world!"
+logic:
+  - Afficher la chaîne exacte "Hello, world!"
+  - Aucune variable n'est nécessaire 

@@ -1,0 +1,13 @@
+nom: "Obtenir les Éléments Uniques d'une Liste"
+niveau: "level_03_data_structures"
+nom_fichier: "42_elements_uniques_liste.py"
+entree: []
+sortie:
+  - nom: "liste_uniques"
+    type: "list"
+    description: "Une liste contenant uniquement les éléments uniques de la liste originale."
+logique: |
+  1. Créer une liste avec des éléments dupliqués.
+  2. Afficher la liste originale.
+  3. Convertir la liste en un `set` pour éliminer les doublons, puis reconvertir en `list`.
+  4. Afficher la liste des éléments uniques. 

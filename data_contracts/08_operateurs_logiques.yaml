@@ -1,0 +1,21 @@
+name: Opérateurs Logiques
+level: 1
+filename: 08_operateurs_logiques.py
+input:
+  - name: p
+    type: bool
+    value: True
+  - name: q
+    type: bool
+    value: False
+output:
+  - type: str
+    value: "p and q: False"
+  - type: str
+    value: "p or q: True"
+  - type: str
+    value: "not p: False"
+logic:
+  - Définir deux variables booléennes `p` (True) et `q` (False).
+  - Utiliser et afficher les résultats des opérateurs logiques : `and`, `or`, `not`.
+  - Utiliser des f-strings pour l'affichage. 

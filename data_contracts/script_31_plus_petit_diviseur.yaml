@@ -1,0 +1,17 @@
+nom: "Trouver le Plus Petit Diviseur d'un Nombre"
+niveau: "level_02_control_flow"
+nom_fichier: "31_plus_petit_diviseur.py"
+entree:
+  - nom: "n"
+    type: "int"
+    description: "Un entier supérieur à 1."
+sortie:
+  - nom: "plus_petit_diviseur"
+    type: "int"
+    description: "Le plus petit diviseur de N (autre que 1)."
+logique: |
+  1. Demander à l'utilisateur de saisir un entier N > 1.
+  2. Si N <= 1, afficher un message d'erreur.
+  3. Itérer de 2 jusqu'à la racine carrée de N (ou N/2).
+  4. Si un nombre `i` dans cette plage divise N (N % i == 0), alors `i` est le plus petit diviseur. L'afficher et terminer.
+  5. Si la boucle se termine sans trouver de diviseur, N est premier. Son plus petit diviseur (autre que 1) est N lui-même. L'afficher. 

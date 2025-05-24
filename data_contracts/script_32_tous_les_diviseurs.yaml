@@ -1,0 +1,17 @@
+nom: "Afficher Tous les Diviseurs d'un Nombre"
+niveau: "level_02_control_flow"
+nom_fichier: "32_tous_les_diviseurs.py"
+entree:
+  - nom: "n"
+    type: "int"
+    description: "Un entier positif."
+sortie:
+  - nom: "diviseurs"
+    type: "list"
+    description: "La liste de tous les diviseurs de N."
+logique: |
+  1. Demander à l'utilisateur de saisir un entier N.
+  2. Initialiser une liste vide `diviseurs`.
+  3. Itérer de 1 à N (inclus).
+  4. Si le nombre `i` de l'itération divise N (N % i == 0), ajouter `i` à la liste `diviseurs`.
+  5. Afficher la liste `diviseurs`. 

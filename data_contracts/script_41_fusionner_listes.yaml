@@ -1,0 +1,14 @@
+nom: "Fusionner Deux Listes"
+niveau: "level_03_data_structures"
+nom_fichier: "41_fusionner_listes.py"
+entree: []
+sortie:
+  - nom: "liste_fusionnee"
+    type: "list"
+    description: "La nouvelle liste résultant de la fusion."
+logique: |
+  1. Créer deux listes distinctes.
+  2. Afficher les deux listes.
+  3. Fusionner les deux listes en utilisant l'opérateur `+`.
+  4. Afficher la nouvelle liste fusionnée.
+  5. Montrer aussi la méthode `extend()` pour ajouter les éléments d'une liste à une autre. 

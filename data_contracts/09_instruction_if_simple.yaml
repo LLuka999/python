@@ -1,0 +1,14 @@
+name: Instruction If Simple
+level: 1
+filename: 09_instruction_if_simple.py
+input:
+  - name: age
+    type: int
+    value: 18
+output:
+  - type: str
+    value: "Vous êtes majeur."
+logic:
+  - Définir une variable `age` (18).
+  - Utiliser une instruction `if` pour vérifier si `age` est supérieur ou égal à 18.
+  - Si c'est le cas, afficher "Vous êtes majeur." 

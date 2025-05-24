@@ -1,0 +1,23 @@
+name: Boucle While Simple
+level: 1
+filename: 16_boucle_while_simple.py
+input: []
+output:
+  - type: str
+    value: "Compteur: 1"
+  - type: str
+    value: "Compteur: 2"
+  - type: str
+    value: "Compteur: 3"
+  - type: str
+    value: "Compteur: 4"
+  - type: str
+    value: "Compteur: 5"
+  - type: str
+    value: "Fin de la boucle."
+logic:
+  - Initialiser une variable `compteur` à 1.
+  - Utiliser une boucle `while` qui continue tant que `compteur` est inférieur ou égal à 5.
+  - À chaque itération, afficher "Compteur: [valeur_compteur]".
+  - Incrémenter `compteur` de 1 à chaque itération.
+  - Après la boucle, afficher "Fin de la boucle." 

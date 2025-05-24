@@ -1,0 +1,11 @@
+name: Concaténation de Chaînes
+level: 1
+filename: 04_concatenation_chaines.py
+input: []
+output:
+  - type: str
+    value: "Bonjour, Python!"
+logic:
+  - Créer deux variables chaînes : `chaine1` ("Bonjour, ") et `chaine2` ("Python!").
+  - Concaténer les deux chaînes en utilisant l'opérateur `+`.
+  - Afficher le résultat. 

@@ -1,0 +1,13 @@
+nom: "Parcourir une Liste avec enumerate"
+niveau: "level_03_data_structures"
+nom_fichier: "43_parcourir_liste_enumerate.py"
+entree: []
+sortie:
+  - nom: "affichage_elements_indices"
+    type: "str"
+    description: "Affichage des éléments de la liste avec leurs indices."
+logique: |
+  1. Créer une liste d'éléments.
+  2. Utiliser une boucle `for` avec `enumerate()` pour parcourir la liste.
+  3. À chaque itération, `enumerate()` fournit l'indice et l'élément.
+  4. Afficher l'indice et l'élément correspondant. 

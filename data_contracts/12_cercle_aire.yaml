@@ -1,0 +1,19 @@
+name: Calcul Aire Cercle
+level: 1
+filename: 12_cercle_aire.py
+input:
+  - name: rayon
+    type: float
+    value: 5.0
+    constraint: doit être > 0
+output:
+  - type: float
+    description: Aire du cercle avec 2 décimales
+logic:
+  - Importer le module `math`.
+  - Utiliser `math.pi` pour la valeur de pi.
+  - Demander à l'utilisateur de saisir le rayon (ou utiliser une valeur fixe pour cet exemple).
+  - Calculer l'aire : `aire = math.pi * rayon**2`.
+  - Arrondir le résultat à 2 décimales en utilisant `round()`.
+  - Afficher l'aire calculée.
+  - Gérer le cas où le rayon est <= 0 en affichant un message d'erreur (pas de calcul dans ce cas). 

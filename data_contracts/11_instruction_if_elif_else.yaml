@@ -1,0 +1,19 @@
+name: Instruction If-elif-else
+level: 1
+filename: 11_instruction_if_elif_else.py
+input:
+  - name: note
+    type: int
+    value: 75
+output:
+  - type: str
+    value: "Mention: Assez Bien"
+logic:
+  - Définir une variable `note` (par exemple, 75).
+  - Utiliser une structure `if-elif-else` pour afficher une mention en fonction de la note :
+    - note >= 90: "Très Bien"
+    - note >= 80: "Bien"
+    - note >= 70: "Assez Bien"
+    - note >= 60: "Passable"
+    - sinon: "Échec"
+  - Afficher la mention correspondante. 

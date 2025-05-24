@@ -1,0 +1,18 @@
+nom: "Compter les Voyelles"
+niveau: "level_02_control_flow"
+nom_fichier: "26_compter_voyelles.py"
+entree:
+  - nom: "chaine"
+    type: "str"
+    description: "Une chaîne de caractères."
+sortie:
+  - nom: "nombre_voyelles"
+    type: "int"
+    description: "Le nombre de voyelles dans la chaîne."
+logique: |
+  1. Demander à l'utilisateur de saisir une chaîne de caractères.
+  2. Définir une liste ou une chaîne de voyelles (minuscules et majuscules).
+  3. Initialiser un compteur `nombre_voyelles` à 0.
+  4. Parcourir chaque caractère de la chaîne saisie.
+  5. Si le caractère est une voyelle, incrémenter `nombre_voyelles`.
+  6. Afficher `nombre_voyelles`. 

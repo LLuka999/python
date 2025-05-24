@@ -1,0 +1,27 @@
+name: Opérateurs de Comparaison
+level: 1
+filename: 07_operateurs_comparaison.py
+input:
+  - name: x
+    type: int
+    value: 10
+  - name: y
+    type: int
+    value: 20
+output:
+  - type: str
+    value: "x == y: False"
+  - type: str
+    value: "x != y: True"
+  - type: str
+    value: "x < y: True"
+  - type: str
+    value: "x > y: False"
+  - type: str
+    value: "x <= y: True"
+  - type: str
+    value: "x >= y: False"
+logic:
+  - Définir deux variables `x` (10) et `y` (20).
+  - Utiliser et afficher les résultats des opérateurs de comparaison : ==, !=, <, >, <=, >=.
+  - Utiliser des f-strings pour l'affichage. 

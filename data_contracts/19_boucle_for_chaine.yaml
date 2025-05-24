@@ -1,0 +1,24 @@
+name: Boucle For sur Chaîne
+level: 1
+filename: 19_boucle_for_chaine.py
+input:
+  - name: mot
+    type: str
+    value: "Python"
+output:
+  - type: str
+    value: "Caractère: P"
+  - type: str
+    value: "Caractère: y"
+  - type: str
+    value: "Caractère: t"
+  - type: str
+    value: "Caractère: h"
+  - type: str
+    value: "Caractère: o"
+  - type: str
+    value: "Caractère: n"
+logic:
+  - Définir une variable `mot` avec la chaîne "Python".
+  - Utiliser une boucle `for` pour itérer sur chaque caractère de `mot`.
+  - À chaque itération, afficher "Caractère: [caractere_actuel]". 

@@ -1,0 +1,17 @@
+nom: "Ajouter un Élément à une Liste"
+niveau: "level_03_data_structures"
+nom_fichier: "37_ajouter_element_liste.py"
+entree:
+  - nom: "element_a_ajouter"
+    type: "any"
+    description: "L'élément à ajouter à la liste."
+sortie:
+  - nom: "liste_modifiee"
+    type: "list"
+    description: "La liste après l'ajout de l'élément."
+logique: |
+  1. Créer une liste initiale.
+  2. Afficher la liste initiale.
+  3. Demander à l'utilisateur de saisir un élément à ajouter (ou définir un élément).
+  4. Utiliser la méthode `append()` pour ajouter l'élément à la fin de la liste.
+  5. Afficher la liste modifiée. 

@@ -1,0 +1,16 @@
+name: Vérificateur Pair Impair
+level: 1
+filename: 13_pair_impair.py
+input:
+  - name: nombre
+    type: int
+    value: 7
+output:
+  - type: str
+    value: "7 est impair."
+logic:
+  - Demander à l'utilisateur de saisir un nombre entier (ou utiliser une valeur fixe).
+  - Utiliser l'opérateur modulo (`%`) pour vérifier si le nombre est divisible par 2.
+  - Si `nombre % 2 == 0`, afficher "[nombre] est pair."
+  - Sinon, afficher "[nombre] est impair."
+  - Gérer le cas où l'entrée n'est pas un entier valide (optionnel pour ce niveau, mais une bonne pratique à mentionner). 

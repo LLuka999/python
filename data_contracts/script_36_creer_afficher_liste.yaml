@@ -1,0 +1,12 @@
+nom: "Créer et Afficher une Liste"
+niveau: "level_03_data_structures"
+nom_fichier: "36_creer_afficher_liste.py"
+entree: []
+sortie:
+  - nom: "affichage_liste"
+    type: "str"
+    description: "La liste affichée sous forme de chaîne."
+logique: |
+  1. Créer une liste contenant différents types d'éléments (nombres, chaînes, booléens).
+  2. Afficher la liste entière.
+  3. Afficher chaque élément de la liste en utilisant une boucle. 

@@ -1,0 +1,14 @@
+nom: "Inverser une Liste"
+niveau: "level_03_data_structures"
+nom_fichier: "44_inverser_liste.py"
+entree: []
+sortie:
+  - nom: "liste_inversee"
+    type: "list"
+    description: "La liste avec l'ordre de ses éléments inversé."
+logique: |
+  1. Créer une liste d'éléments.
+  2. Afficher la liste originale.
+  3. Utiliser la méthode `reverse()` pour inverser la liste sur place.
+  4. Afficher la liste inversée.
+  5. Montrer aussi comment inverser une liste en utilisant le slicing `[::-1]` pour créer une nouvelle liste inversée. 

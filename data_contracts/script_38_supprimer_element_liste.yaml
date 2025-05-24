@@ -1,0 +1,19 @@
+nom: "Supprimer un Élément d'une Liste"
+niveau: "level_03_data_structures"
+nom_fichier: "38_supprimer_element_liste.py"
+entree:
+  - nom: "element_a_supprimer"
+    type: "any"
+    description: "L'élément à supprimer de la liste."
+sortie:
+  - nom: "liste_modifiee"
+    type: "list"
+    description: "La liste après la suppression de l'élément (si trouvé)."
+logique: |
+  1. Créer une liste initiale.
+  2. Afficher la liste initiale.
+  3. Demander à l'utilisateur quel élément supprimer (ou définir un élément).
+  4. Vérifier si l'élément est dans la liste.
+  5. Si oui, utiliser la méthode `remove()` pour supprimer la première occurrence de l'élément.
+  6. Si non, afficher un message indiquant que l'élément n'a pas été trouvé.
+  7. Afficher la liste modifiée. 

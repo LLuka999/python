@@ -1,0 +1,16 @@
+name: Instruction If-Else
+level: 1
+filename: 10_instruction_if_else.py
+input:
+  - name: note
+    type: int
+    value: 12
+output:
+  - type: str
+    value: "Admis"
+logic:
+  - Définir une variable `note` (12).
+  - Utiliser une instruction `if-else` pour vérifier si `note` est supérieure ou égale à 10.
+  - Si c'est le cas, afficher "Admis".
+  - Sinon, afficher "Ajourné".
+  - Tester avec une autre valeur (ex: 8) pour vérifier la branche `else`. (Ce test sera implicite dans la logique, pas besoin d'un output séparé pour cela dans la spec). 

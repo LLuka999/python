@@ -1,0 +1,20 @@
+name: Utilisation de Break
+level: 1
+filename: 17_usage_break.py
+input: []
+output:
+  - type: str
+    value: "Itération: 0"
+  - type: str
+    value: "Itération: 1"
+  - type: str
+    value: "Itération: 2"
+  - type: str
+    value: "Condition de break atteinte à l'itération 3."
+  - type: str
+    value: "Boucle terminée après break."
+logic:
+  - Utiliser une boucle `for` avec `range(10)`.
+  - À chaque itération, afficher "Itération: [valeur_actuelle]".
+  - Si `valeur_actuelle` est égale à 3, afficher "Condition de break atteinte à l'itération 3." et utiliser `break` pour sortir de la boucle.
+  - Après la boucle, afficher "Boucle terminée après break." 

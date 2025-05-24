@@ -1,0 +1,14 @@
+nom: "Créer et Afficher un Dictionnaire"
+niveau: "level_03_data_structures"
+nom_fichier: "46_creer_afficher_dictionnaire.py"
+entree: []
+sortie:
+  - nom: "affichage_dictionnaire"
+    type: "str"
+    description: "Le dictionnaire affiché."
+logique: |
+  1. Créer un dictionnaire avec quelques paires clé-valeur (par exemple, informations sur une personne).
+  2. Afficher le dictionnaire entier.
+  3. Afficher les clés du dictionnaire en utilisant la méthode `keys()`.
+  4. Afficher les valeurs du dictionnaire en utilisant la méthode `values()`.
+  5. Afficher les paires clé-valeur en utilisant la méthode `items()` et une boucle. 

@@ -1,0 +1,29 @@
+name: Opérations Arithmétiques
+level: 1
+filename: 03_operations_arithmetiques.py
+input:
+  - name: a
+    type: int
+    value: 10
+  - name: b
+    type: int
+    value: 5
+output:
+  - type: str
+    value: "a + b = 15"
+  - type: str
+    value: "a - b = 5"
+  - type: str
+    value: "a * b = 50"
+  - type: str
+    value: "a / b = 2.0"
+  - type: str
+    value: "a % b = 0"
+  - type: str
+    value: "a // b = 2"
+  - type: str
+    value: "a ** b = 100000"
+logic:
+  - Définir deux variables 'a' (10) et 'b' (5).
+  - Effectuer et afficher les opérations suivantes : addition, soustraction, multiplication, division, modulo, division entière, exponentiation.
+  - Utiliser des f-strings pour l'affichage. 

@@ -1,0 +1,17 @@
+nom: "Somme des N Premiers Entiers"
+niveau: "level_02_control_flow"
+nom_fichier: "24_somme_n_premiers_entiers.py"
+entree:
+  - nom: "n"
+    type: "int"
+    description: "Un entier positif N."
+sortie:
+  - nom: "somme"
+    type: "int"
+    description: "La somme des N premiers entiers."
+logique: |
+  1. Demander à l'utilisateur de saisir un entier N.
+  2. Initialiser une variable `somme` à 0.
+  3. Utiliser une boucle pour itérer de 1 à N (inclus).
+  4. À chaque itération, ajouter le nombre actuel à `somme`.
+  5. Afficher la `somme`. 

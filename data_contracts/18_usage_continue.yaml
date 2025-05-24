@@ -1,0 +1,20 @@
+name: Utilisation de Continue
+level: 1
+filename: 18_usage_continue.py
+input: []
+output:
+  - type: str
+    value: "Itération: 0"
+  - type: str
+    value: "Itération: 1"
+  - type: str
+    value: "Itération: 2 (pair, on saute l'affichage spécifique)"
+  - type: str
+    value: "Itération: 3"
+  - type: str
+    value: "Itération: 4 (pair, on saute l'affichage spécifique)"
+logic:
+  - Utiliser une boucle `for` avec `range(5)`.
+  - À chaque itération, vérifier si `valeur_actuelle` est paire.
+  - Si c'est le cas, afficher "Itération: [valeur_actuelle] (pair, on saute l'affichage spécifique)" et utiliser `continue` pour passer à l'itération suivante.
+  - Si le nombre est impair, afficher "Itération: [valeur_actuelle]". 

@@ -1,0 +1,18 @@
+nom: "Vérifier si un Mot est un Palindrome"
+niveau: "level_02_control_flow"
+nom_fichier: "28_verifier_palindrome.py"
+entree:
+  - nom: "mot"
+    type: "str"
+    description: "Un mot à vérifier."
+sortie:
+  - nom: "est_palindrome"
+    type: "bool"
+    description: "True si le mot est un palindrome, False sinon."
+logique: |
+  1. Demander à l'utilisateur de saisir un mot.
+  2. Convertir le mot en minuscules pour ignorer la casse.
+  3. Inverser le mot.
+  4. Comparer le mot original (en minuscules) avec sa version inversée.
+  5. Si les deux sont identiques, afficher que c'est un palindrome.
+  6. Sinon, afficher que ce n'est pas un palindrome. 

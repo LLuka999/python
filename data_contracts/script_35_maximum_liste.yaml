@@ -1,0 +1,16 @@
+nom: "Trouver le Maximum dans une Liste"
+niveau: "level_02_control_flow"
+nom_fichier: "35_maximum_liste.py"
+entree:
+  - nom: "liste_nombres"
+    type: "list[float]"
+    description: "Une liste de nombres."
+sortie:
+  - nom: "maximum"
+    type: "float"
+    description: "Le plus grand nombre de la liste."
+logique: |
+  1. Définir une liste de nombres.
+  2. Si la liste est vide, afficher un message d'erreur.
+  3. Sinon, utiliser la fonction `max()` pour trouver le plus grand élément.
+  4. Afficher le maximum. 

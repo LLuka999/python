@@ -1,0 +1,18 @@
+name: Boucle For avec Range
+level: 1
+filename: 15_boucle_for_range.py
+input: []
+output:
+  - type: str
+    value: "Nombre: 0"
+  - type: str
+    value: "Nombre: 1"
+  - type: str
+    value: "Nombre: 2"
+  - type: str
+    value: "Nombre: 3"
+  - type: str
+    value: "Nombre: 4"
+logic:
+  - Utiliser une boucle `for` et la fonction `range(5)` pour itérer de 0 à 4.
+  - À chaque itération, afficher "Nombre: [valeur_actuelle]". 

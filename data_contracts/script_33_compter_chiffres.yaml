@@ -1,0 +1,16 @@
+nom: "Compter le Nombre de Chiffres dans un Entier"
+niveau: "level_02_control_flow"
+nom_fichier: "33_compter_chiffres.py"
+entree:
+  - nom: "nombre"
+    type: "int"
+    description: "Un entier."
+sortie:
+  - nom: "nombre_chiffres"
+    type: "int"
+    description: "Le nombre de chiffres dans l'entier."
+logique: |
+  1. Demander à l'utilisateur de saisir un entier.
+  2. Convertir l'entier en chaîne de caractères.
+  3. Utiliser la fonction `len()` sur la chaîne pour obtenir le nombre de chiffres.
+  4. Afficher le nombre de chiffres. (Gérer le cas du nombre 0 qui a 1 chiffre, et les nombres négatifs où le signe ne compte pas comme un chiffre). 

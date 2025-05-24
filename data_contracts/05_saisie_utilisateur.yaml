@@ -1,0 +1,14 @@
+name: Saisie Utilisateur
+level: 1
+filename: 05_saisie_utilisateur.py
+input:
+  - name: nom_utilisateur
+    type: str
+    prompt: "Quel est votre nom ? "
+output:
+  - type: str
+    value: "Bonjour, [nom_utilisateur]!"
+logic:
+  - Utiliser la fonction `input()` pour demander son nom à l'utilisateur.
+  - Stocker la saisie dans une variable `nom_utilisateur`.
+  - Afficher un message de salutation personnalisé en utilisant le nom saisi. 

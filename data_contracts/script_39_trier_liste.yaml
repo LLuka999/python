@@ -1,0 +1,14 @@
+nom: "Trier une Liste"
+niveau: "level_03_data_structures"
+nom_fichier: "39_trier_liste.py"
+entree: []
+sortie:
+  - nom: "liste_triee"
+    type: "list"
+    description: "La liste triée."
+logique: |
+  1. Créer une liste de nombres ou de chaînes de caractères non triée.
+  2. Afficher la liste originale.
+  3. Utiliser la méthode `sort()` pour trier la liste sur place (ou la fonction `sorted()` pour créer une nouvelle liste triée).
+  4. Afficher la liste triée.
+  5. Montrer également comment trier en ordre décroissant. 

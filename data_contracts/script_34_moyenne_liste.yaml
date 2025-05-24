@@ -1,0 +1,17 @@
+nom: "Calculer la Moyenne d'une Liste de Nombres"
+niveau: "level_02_control_flow"
+nom_fichier: "34_moyenne_liste.py"
+entree:
+  - nom: "liste_nombres"
+    type: "list[float]"
+    description: "Une liste de nombres (entiers ou décimaux)."
+sortie:
+  - nom: "moyenne"
+    type: "float"
+    description: "La moyenne des nombres de la liste."
+logique: |
+  1. Définir une liste de nombres (peut être initialisée ou saisie par l'utilisateur).
+  2. Si la liste est vide, afficher un message indiquant qu'il est impossible de calculer la moyenne.
+  3. Sinon, calculer la somme des éléments de la liste.
+  4. Diviser la somme par le nombre d'éléments (longueur de la liste) pour obtenir la moyenne.
+  5. Afficher la moyenne. 

@@ -1,0 +1,20 @@
+name: Calcul Prix TTC
+level: 1
+filename: 14_prix_ttc.py
+input:
+  - name: prix_ht
+    type: float
+    value: 100.0
+  - name: taux_tva
+    type: float
+    value: 0.20
+output:
+  - type: str
+    value: "Prix HT: 100.00, Taux TVA: 20.00%, Montant TVA: 20.00, Prix TTC: 120.00"
+logic:
+  - Définir `prix_ht` et `taux_tva` (par exemple, 0.20 pour 20%).
+  - Calculer le `montant_tva = prix_ht * taux_tva`.
+  - Calculer le `prix_ttc = prix_ht + montant_tva`.
+  - Afficher `prix_ht`, `taux_tva` (en pourcentage), `montant_tva`, et `prix_ttc`.
+  - Formater les sorties monétaires à 2 décimales.
+  - Gérer les cas où `prix_ht` ou `taux_tva` sont négatifs (afficher un message d'erreur). 

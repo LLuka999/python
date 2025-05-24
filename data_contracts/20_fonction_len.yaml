@@ -1,0 +1,20 @@
+name: Fonction len()
+level: 1
+filename: 20_fonction_len.py
+input:
+  - name: chaine_test
+    type: str
+    value: "Bonjour"
+  - name: liste_test
+    type: list
+    value: "[1, 2, 3, 4, 5]"
+output:
+  - type: str
+    value: "Longueur de la chaîne 'Bonjour': 7"
+  - type: str
+    value: "Longueur de la liste [1, 2, 3, 4, 5]: 5"
+logic:
+  - Définir une chaîne `chaine_test` ("Bonjour").
+  - Utiliser `len(chaine_test)` et afficher le résultat.
+  - Définir une liste `liste_test` ([1, 2, 3, 4, 5]).
+  - Utiliser `len(liste_test)` et afficher le résultat. 

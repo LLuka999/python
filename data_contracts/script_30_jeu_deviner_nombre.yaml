@@ -1,0 +1,17 @@
+nom: "Jeu : Deviner un Nombre"
+niveau: "level_02_control_flow"
+nom_fichier: "30_jeu_deviner_nombre.py"
+entree: []
+sortie:
+  - nom: "message_fin_jeu"
+    type: "str"
+    description: "Message indiquant si le joueur a gagné et en combien d'essais."
+logique: |
+  1. Générer un nombre aléatoire entre 1 et 100 (par exemple).
+  2. Initialiser un compteur d'essais à 0.
+  3. Entrer dans une boucle `while True`.
+  4. Demander à l'utilisateur de deviner le nombre.
+  5. Incrémenter le compteur d'essais.
+  6. Si la supposition est correcte, afficher un message de victoire avec le nombre d'essais et sortir de la boucle.
+  7. Si la supposition est trop petite, afficher "Trop petit".
+  8. Si la supposition est trop grande, afficher "Trop grand". 
