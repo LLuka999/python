@@ -1,0 +1,12 @@
+2025-05-30 12:02:20,224 - Connector_SQLite - INFO - Connexion SQLite établie : sample_data.db
+2025-05-30 12:02:20,227 - Connector_SQLite - INFO - Extraction réussie : 100 lignes
+2025-05-30 12:02:20,231 - DataTransformer - INFO - Filtrage : 100 -> 50 lignes
+2025-05-30 12:02:20,258 - Connector_Parquet - INFO - Écriture Parquet réussie : 50 lignes vers sales_filtered.parquet
+2025-05-30 12:02:20,268 - Connector_SQLite - INFO - Extraction réussie : 100 lignes
+2025-05-30 12:02:20,274 - DataTransformer - INFO - Agrégation : 100 -> 12 lignes
+2025-05-30 12:02:20,279 - Connector_JSON - INFO - Écriture JSON réussie : 12 lignes
+2025-05-30 12:02:33,571 - Connector_SQLite - INFO - Connexion SQLite établie : sample_data.db
+2025-05-30 12:02:33,572 - Connector_SQLite - INFO - Extraction réussie : 100 lignes
+2025-05-30 12:02:33,580 - DataTransformer - INFO - Filtrage : 100 -> 88 lignes
+2025-05-30 12:02:33,584 - DataTransformer - INFO - Agrégation : 88 -> 16 lignes
+2025-05-30 12:02:33,590 - Connector_Parquet - INFO - Écriture Parquet réussie : 16 lignes vers sales_analysis.parquet

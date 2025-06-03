@@ -1,0 +1,23 @@
+# Dépendances pour le Framework ETL - Méthode Markova
+# ================================================
+
+# Core data processing
+pandas>=1.5.0
+numpy>=1.24.0
+
+# Parquet file support
+pyarrow>=10.0.0
+
+# SQLite is included in Python standard library
+
+# Optional dependencies for extended functionality
+# SQLAlchemy>=2.0.0         # For more database connectors
+# psycopg2-binary>=2.9.0    # For PostgreSQL
+# pymongo>=4.3.0            # For MongoDB
+# redis>=4.5.0              # For Redis
+# requests>=2.28.0          # For HTTP APIs
+
+# Development and testing (optional)
+# pytest>=7.2.0
+# black>=22.0.0
+# mypy>=1.0.0 
