@@ -31,4 +31,8 @@ maskova-python-roadmap/
 ├── level_05_file_db_network/    # Fichiers, SQLite, requêtes HTTP
 ├── level_06_projects/           # Mini-projets concrets
 └── data_contracts/              # Specs YAML façon Markova
-``` 
+```
+
+
+Enjoy
+Luka
